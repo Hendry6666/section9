@@ -3,7 +3,7 @@ describe('MATERI VALIDATE CONTENT',()=>{
             cy.request('https://pokeapi.co/api/v2/pokemon/bulbasaur').as('bulbasaur')
             cy.get('@bulbasaur').its('body').should('include', {name: "bulbasaur"})
         });
-        it("GET POKE", () => {
+        it("TUGAS", () => {
             var poke ={
                 "name":"limber"
             }
